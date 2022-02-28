@@ -245,14 +245,14 @@ def start():
     magic = Magic("Rashta", randint(250, 300), 20)
     berserk = Berserk("Ursa", randint(250, 320), 30)
     thor = Thor("Raiden", randint(230, 340), 20)
-    # golem = Golem("Rohan", randint(500, 800), 2)
-    # witcher = Witcher("Lina", randint(400, 500), 0)
-    # avrora =  Avrora("Bonik", randint(230, 300), 15)
-    # hacker = Hacker("Tinker", randint(220, 300), 20)
-    # tricky  = TrickyBastard("Opossum", randint(230, 3100), 15)
-    # antMan = AntMan("Sullybear", randint(250, 350), 20)
+    golem = Golem("Rohan", randint(500, 800), 2)
+    witcher = Witcher("Lina", randint(400, 500), 0)
+    avrora =  Avrora("Bonik", randint(230, 300), 15)
+    hacker = Hacker("Tinker", randint(220, 300), 20)
+    tricky  = TrickyBastard("Opossum", randint(230, 3100), 15)
+    antMan = AntMan("Sullybear", randint(250, 350), 20)
 
-    heroes = [warrior, medic_1, medic_2, magic, berserk,]
+    heroes = [warrior, medic_1, medic_2, magic, berserk, thor, golem, witcher, avrora, hacker, tricky, antMan]
 
     print_statistics(boss, heroes)
 
